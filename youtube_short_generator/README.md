@@ -8,8 +8,6 @@ This project solves those inefficiencies by creating a fully automated data pipe
 ## System Architecture & Data Flow
 The pipeline uses a multi-step automation architecture built in Zapier to manage data extraction, handle timing delays, and connect third-party APIs.
 
-![Workflow Diagram](workflow_diagram_ysg.jpg)
-
 * **Trigger:** A scheduled timer or webhook event kicks off the daily workflow by passing the target video topic into the pipeline.
 * **AI Generation Layer (Google Gemini):** The topic goes directly into Google AI Studio (Gemini). It creates the raw text payload, which includes both the video script and the SEO metadata. To keep the output organized for the next steps, Gemini wraps the data in custom text tags like `[SCRIPT START]` and `[METADATA START]`.
 * **Data Transformation Layer (Zapier Formatter & Regex):** Because Gemini outputs a single block of text, the pipeline uses text formatting steps running regular expressions to break it apart. 
@@ -18,6 +16,8 @@ The pipeline uses a multi-step automation architecture built in Zapier to manage
 * **Video Generation Layer (HeyGen Video Agent):** The extracted voiceover script is sent to the HeyGen Video Agent. The agent reads the text and automatically adds relevant background visuals, b-roll graphics, and burns captions directly into a vertical 9:16 layout.
 * **Timing & Data Retrieval (Delay by Zapier):** Video rendering takes time. The pipeline triggers a 15-minute delay step to let the video finish processing. Once the time is up, a "Retrieve Video Status" step queries the HeyGen API using the Video ID to pull the direct `.mp4` video URL.
 * **Final Deployment (YouTube Data API):** The pipeline maps the split title, the formatted description text, and the raw captioned video URL directly into the YouTube Upload action. It automatically flags required settings like setting "Made for Kids" to False and keeping the upload Private for review.
+
+![Workflow Diagram](workflow_diagram_ysg.jpg)
 
 ## Code & Prompt Engineering Breakdown
 
