@@ -17,9 +17,11 @@ The pipeline uses a multi-step automation architecture built in Zapier to manage
 * **Timing & Data Retrieval (Delay by Zapier):** Video rendering takes time. The pipeline triggers a 15-minute delay step to let the video finish processing. Once the time is up, a "Retrieve Video Status" step queries the HeyGen API using the Video ID to pull the direct `.mp4` video URL.
 * **Final Deployment (YouTube Data API):** The pipeline maps the split title, the formatted description text, and the raw captioned video URL directly into the YouTube Upload action. It automatically flags required settings like setting "Made for Kids" to False and keeping the upload Private for review.
 
+
 <p align="center">
-  <img src="workflow_diagram_ysg.jpg" width="600" alt="Workflow Diagram">
+  <img src="workflow_diagram_ysg.jpg" width="400" alt="Workflow Diagram">
 </p>
+
 
 ## Code & Prompt Engineering Breakdown
 
