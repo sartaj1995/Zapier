@@ -8,6 +8,8 @@ This project solves those inefficiencies by creating a fully automated data pipe
 ## System Architecture & Data Flow
 The pipeline uses a multi-step automation architecture built in Zapier to manage data extraction, handle timing delays, and connect third-party APIs.
 
+![Workflow Diagram](workflow_diagram_ysg.jpg)
+
 * **Trigger:** A scheduled timer or webhook event kicks off the daily workflow by passing the target video topic into the pipeline.
 * **AI Generation Layer (Google Gemini):** The topic goes directly into Google AI Studio (Gemini). It creates the raw text payload, which includes both the video script and the SEO metadata. To keep the output organized for the next steps, Gemini wraps the data in custom text tags like `[SCRIPT START]` and `[METADATA START]`.
 * **Data Transformation Layer (Zapier Formatter & Regex):** Because Gemini outputs a single block of text, the pipeline uses text formatting steps running regular expressions to break it apart. 
