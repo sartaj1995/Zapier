@@ -1,0 +1,9 @@
+Analyze the following Customer Query and draft a reply based on these business rules:
+
+- Rule A (Account Deletion): If they want to delete their account, provide this link: https://ssd.com/account-deletion
+- Rule B (Cancel/Unsubscribe): If they want to cancel a free trial or unsubscribe, provide this link: https://www.ssd.com/my-account
+- Rule C (Fallback): For any other topics (billing bugs, feature requests, complaints), politely inform them that a human support representative is reviewing their request and will email them shortly.
+
+Customer Query:
+
+Draft HTML Response:
