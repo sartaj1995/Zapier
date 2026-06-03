@@ -15,7 +15,7 @@ The pipeline utilizes a multi-step automation architecture built in Zapier to ma
 
 
 <p align="center">
-  <img src="workflow_diagram_ysg.jpg" width="400" alt="Workflow Diagram">
+  <img src="workflow_diagram_csav1.jpg" width="400" alt="Workflow Diagram">
 </p>
 
 
