@@ -13,6 +13,12 @@ The pipeline utilizes a multi-step automation architecture built in Zapier to ma
 * **AI Processing Layer (Google Gemini):** Passes the customer's query to Gemini. To maximize reliability, the architecture segregates the instruction set into **System Instructions** (hardcoded guardrails preventing hallucinations) and the **Prompt payload** (the company rules, routing documentation, and customer variables). 
 * **Dynamic Deployment Layer (Gmail/Outlook API - Create Draft Reply):** Instead of emailing the customer directly, the pipeline uses the `Create Draft Reply` event. By mapping the dynamic `Thread ID` extracted from the acknowledgment step, Zapier injects Gemini's formatted HTML output directly into the existing customer email chain as a pending draft.
 
+
+<p align="center">
+  <img src="workflow_diagram_ysg.jpg" width="400" alt="Workflow Diagram">
+</p>
+
+
 ---
 
 ## Technical Specifications & Field Mapping
