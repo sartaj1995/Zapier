@@ -20,6 +20,11 @@ Below are the operational engines running inside this repository. Each project l
 * **The Stack:** Zapier, Google Forms, Google Gemini, Gmail/Outlook APIs.
 * **Key Innovation:** Implements strict behavioral guardrails using split-instruction prompt architecture. By separating system instructions from payload variables, the pipeline avoids AI hallucinations and threads formatted HTML drafts directly into live customer conversations for agent review.
 
+### 3. [Real-Time Data Systems Anomalies Alerts Engine](./realtime_anomaly_alerts)
+* **Core Objective:** Monitors infrastructure status feeds 24/7 to catch and route critical system bugs instantly.
+* **The Stack:** RSS by Zapier, Filter by Zapier, Gmail API.
+* **Key Innovation:** Features an automated data triage layer using conditional rulesets. By screening raw XML feed text strings for explicit error indicators, it filters out hundreds of noise logs daily to eliminate alert fatigue while routing top-priority incidents.
+
 ---
 
 ## 🛠️ Core Competencies Demonstrated
@@ -27,6 +32,7 @@ Below are the operational engines running inside this repository. Each project l
 This portfolio demonstrates a practical understanding of production-grade operational workflows:
 
 * **Data Engineering Mindset:** Mapping custom schemas, handling dynamic payloads, and utilizing distinct tracking markers like `Thread IDs` to maintain continuity across asynchronous webhooks.
+* **Real-Time Data Triage:** Building deterministic filtering systems to parse live XML status logs, preventing alert fatigue by separating baseline noise from critical system drops.
 * **Prompt Engineering Architecture:** Utilizing system-level instructions, few-shot conditioning, and explicit formatting constraints to ensure AI outputs match strict corporate guidelines.
 * **Low-Code / Code Hybridization:** Knowing exactly when to use native platform triggers and when to drop into custom Python or JavaScript environments to execute advanced data transformations.
 * **Risk Mitigation:** Building safety-first architectures that preserve brand reputation by keeping human reviews integrated directly into automated loops.
