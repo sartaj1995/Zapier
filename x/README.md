@@ -13,7 +13,7 @@ The pipeline utilizes a multi-step automation architecture built in Zapier to pu
 * **Incident Notification Layer (Gmail API):** Once an anomaly successfully passes the filter rules, Zapier maps the live error details directly into a clean notification template. It executes a "Send Email" action to broadcast the precise system error message, link, and timestamp to the engineering team's inbox for immediate mitigation.
 
 <p align="center">
-  <img src="workflow_diagram_alerts.jpg" width="400" alt="Workflow Diagram">
+  <img src="workflow_diagram_rtdsaae.jpg" width="400" alt="Workflow Diagram">
 </p>
 
 ---
