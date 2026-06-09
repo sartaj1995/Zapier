@@ -13,10 +13,6 @@ The pipeline leverages Zapier Agents to dynamically evaluate runtime data, acces
 * **Cognitive Summarization Layer (Zapier AI Orchestration):** Consolidates the unstructured conversational replies into a linear text string. It passes this data block to a high-capacity language model, instructing it to run an analytical sweep that separates high-level background information from time-sensitive operational tasks.
 * **Targeted Delivery Layer (Gmail API):** Routes the final structured text straight to a designated personal inbox. The distribution path uses a hardcoded, secure email destination to prevent the AI from misrouting sensitive internal data, while allowing the subject line and body copy to generate dynamically.
 
-<p align="center">
-  <img src="workflow_diagram_stsa.jpg" width="400" alt="Workflow Diagram">
-</p>
-
 ---
 
 ## Technical Specifications & Configuration
