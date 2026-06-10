@@ -12,20 +12,22 @@ The pipeline leverages Zapier Agents to dynamically query inbox data at a design
 
 * **Context Retrieval Layer (Microsoft Outlook API):** The agent programmatically executes a search query across your primary inbox to harvest all raw, unread message payloads.
 
+WIP
+
 ---
 
 ## Technical Specifications & Configuration
 
-x
+WIP
 
 ---
 
 ## Agent Core Instructions & Behavioral Logic
 
-x
+WIP
 
 ### 1. Trigger Definition
-x
+WIP
 
 ### 2. Execution Steps & Behavioral Directives
-x
+WIP
