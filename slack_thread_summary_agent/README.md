@@ -1,6 +1,6 @@
 # Autonomous Slack Thread Summary Agent
 
-## Business Problem Statement
+## Problem Statement
 Slack workspaces move at a chaotic pace. Active conversations regularly spiral into long, messy threads containing dozens of replies, split decisions, and unassigned deliverables. For professionals managing multiple channels, keeping up with these exploding notification threads creates a massive operational bottleneck. Manually reading through historical context eats up valuable focus time, and critical action items are frequently buried or completely forgotten.
 
 This project solves this information tracking issue by deploying an autonomous, no-code AI agent within Zapier. Instead of setting up rigid, traditional automation pipelines that require static channel definitions, this solution uses a flexible AI reasoning layer. By dropping a single notebook emoji reaction onto any message, you kick off an automatic triage process. The agent extracts the entire conversational string, distills the key points, isolates every explicit assignment, and sends a structured digest straight to your personal inbox. 
