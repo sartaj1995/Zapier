@@ -12,6 +12,8 @@ The pipeline leverages Zapier Agents to dynamically query inbox data at a design
 
 * **Context Retrieval Layer (Microsoft Outlook API):** The agent programmatically executes a search query across your primary inbox to harvest all raw, unread message payloads.
 
+* **Cognitive Filtering & Triage Layer (Zapier AI Orchestration):** Processes the raw text block through an intelligence evaluation matrix. It instantly suppresses designated noise domains while honoring strict bypass exceptions (such as specialized MBA event coordinators). It then scans the valid text for priority intent signals (like deadlines, invoices, or meeting requests).
+
 WIP
 
 ---
