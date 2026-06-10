@@ -10,6 +10,8 @@ The pipeline leverages Zapier Agents to dynamically query inbox data at a design
 
 * **Trigger (Temporal Scheduler):** Automatically fires once a day precisely at 12:00 PM to initiate the daily audit.
 
+* **Context Retrieval Layer (Microsoft Outlook API):** The agent programmatically executes a search query across your primary inbox to harvest all raw, unread message payloads.
+
 ---
 
 ## Technical Specifications & Configuration
