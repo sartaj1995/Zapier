@@ -14,6 +14,8 @@ The pipeline leverages Zapier Agents to dynamically query inbox data at a design
 
 * **Cognitive Filtering & Triage Layer (Zapier AI Orchestration):** Processes the raw text block through an intelligence evaluation matrix. It instantly suppresses designated noise domains while honoring strict bypass exceptions (such as specialized MBA event coordinators). It then scans the valid text for priority intent signals (like deadlines, invoices, or meeting requests).
 
+* **Targeted Delivery Layer (Telegram API):** Transforms the isolated data into a highly readable, markdown-optimized layout and routes it directly to your specific Telegram Chat ID.
+
 WIP
 
 ---
