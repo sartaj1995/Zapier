@@ -8,6 +8,8 @@ This project solves inbox fatigue by deploying an autonomous, scheduled AI agent
 ## System Architecture & Data Flow
 The pipeline leverages Zapier Agents to dynamically query inbox data at a designated execution time, process unstructured communication using an AI reasoning layer, and push structured data to a secure chat endpoint.
 
+* **Trigger (Temporal Scheduler):** Automatically fires once a day precisely at 12:00 PM to initiate the daily audit.
+
 ---
 
 ## Technical Specifications & Configuration
