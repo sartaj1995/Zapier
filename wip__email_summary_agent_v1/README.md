@@ -6,7 +6,7 @@ Inboxes are inherently chaotic. Professionals are constantly bombarded by market
 This project solves inbox fatigue by deploying an autonomous, scheduled AI agent within Zapier Central. Instead of relying on a reactive real-time pipeline that constantly interrupts your day, this solution introduces an automated checkpoint. Every day at 12:00 PM, the agent wakes up, runs a sophisticated text-filtering and cognitive-reasoning sweep over your unread Outlook messages, extracts actionable tasks, and delivers a beautifully structured briefing directly to your Telegram app—keeping you out of your inbox and focused on execution. 
 
 ## System Architecture & Data Flow
-x
+The pipeline leverages Zapier Agents to dynamically query inbox data at a designated execution time, process unstructured communication using an AI reasoning layer, and push structured data to a secure chat endpoint.
 
 ---
 
