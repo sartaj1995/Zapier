@@ -27,7 +27,7 @@ To ensure absolute execution reliability, tool capabilities inside the Zapier Ag
 | Component / Tool | Action or Event | Configuration Setting | Core Mapping Logic |
 | :--- | :--- | :--- | :--- |
 | **Schedule Trigger** | Every Day | Time: 08:00 AM | Hardcoded time anchor to guarantee consistent daily intervals. |
-| x | x | x | x |
+| **Microsoft Outlook Tool** | Find Email | Status: Unread | Grants the AI permission to dynamically scrape your unread email folder at the time of execution. |
 | x | x | x | x |
 | x | x | x | x |
 | x | x | x | x |
