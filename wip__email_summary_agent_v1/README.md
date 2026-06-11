@@ -16,7 +16,7 @@ The pipeline leverages Zapier Agents to dynamically query inbox data at a design
 
 * **Targeted Delivery Layer (Telegram API):** Transforms the isolated data into a highly readable, markdown-optimized layout and routes it directly to your specific Telegram Chat ID.
 
-WIP
+* **State Management Layer (Microsoft Outlook API):** Upon verifying successful delivery to your phone, the agent modifies the state of the processed emails, marking them as read to preserve an accurate delta for the next day's run.
 
 ---
 
