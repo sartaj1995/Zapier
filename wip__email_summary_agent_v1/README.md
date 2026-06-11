@@ -28,7 +28,7 @@ To ensure absolute execution reliability, tool capabilities inside the Zapier Ag
 
 ## Agent Core Instructions & Behavioral Logic
 
-WIP
+The operational parameters below are injected directly into the agent's core instructions panel. This natural language blueprint serves as the agent's functional source code:
 
 ### 1. Trigger Definition
 WIP
