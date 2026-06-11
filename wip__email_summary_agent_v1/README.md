@@ -30,9 +30,7 @@ To ensure absolute execution reliability, tool capabilities inside the Zapier Ag
 | **Microsoft Outlook Tool** | Find Email | Status: Unread | Grants the AI permission to dynamically scrape your unread email folder at the time of execution. |
 | **Telegram Tool** | Send Text Message | Chat ID: Hardcoded Specific Value | Restricts message routing to your precise, validated personal Telegram chat ID to prevent data leakage. |
 | **Telegram Tool** | Send Text Message | Text: Let agent select a value | Allows the AI agent to dynamically construct the daily layout using rich markdown code. |
-| x | x | x | x |
-
-**WIP**
+| **Microsoft Outlook Tool** | Update Email (Mark as Read) | Email ID: Let agent select a value | Empowers the AI to update the message status flags dynamically after successful chat delivery. |
 
 ---
 
