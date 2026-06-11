@@ -31,7 +31,9 @@ To ensure absolute execution reliability, tool capabilities inside the Zapier Ag
 The operational parameters below are injected directly into the agent's core instructions panel. This natural language blueprint serves as the agent's functional source code:
 
 ### 1. Trigger Definition
-WIP
+```text
+Trigger: Automatically execute every single day at precisely 08:00 AM.
+```
 
 ### 2. Execution Steps & Behavioral Directives
 WIP
