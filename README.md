@@ -25,6 +25,13 @@ Below are the operational engines running inside this repository. Each project l
 * **The Stack:** RSS by Zapier, Filter by Zapier, Gmail API.
 * **Key Innovation:** Features an automated data triage layer using conditional rulesets. By screening raw XML feed text strings for explicit error indicators, it filters out hundreds of noise logs daily to eliminate alert fatigue while routing top-priority incidents.
 
+### 4. [Slack Thread Summary Agent](./slack_thread_summary_agent/)
+* **Core Objective:** WIP
+* **The Stack:** WIP
+* **Key Innovation:** WIP
+
+**WIP**
+
 ---
 
 ## 🛠️ Core Competencies Demonstrated
