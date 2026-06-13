@@ -1,6 +1,6 @@
 # Enterprise Automation & AI Engineering Portfolio (using Zapier)
 
-This repository holds my production-ready automation pipelines. It shows how I connect data ops, low-code tools, and LLMs to fix slow, manual corporate processes. 
+This repository holds my collection of production-ready automation pipelines and autonomous AI agents. It shows how I connect data ops, low-code tools, and LLMs to fix slow, manual corporate processes.
 
 Instead of just connecting apps blindly, I focus on strict data mapping, solid prompt engineering, and human-in-the-loop safety frameworks built for real analytics environments.
 
