@@ -25,18 +25,20 @@ Below are the operational engines running inside this repository. Each project l
 * **The Stack:** RSS by Zapier, Filter by Zapier, Gmail API.
 * **Key Innovation:** Features an automated data triage layer using conditional rulesets. By screening raw XML feed text strings for explicit error indicators, it filters out hundreds of noise logs daily to eliminate alert fatigue while routing top-priority incidents.
 
-### 4. [Autonomous Slack Thread Summary Agent](./slack_thread_summarizer)
+### 4. [Autonomous Slack Thread Summary Agent](./slack_thread_summary_agent)
 * **Core Objective:** Distills long, unstructured Slack threads into neat email digests containing key decisions and assigned tasks.
 * **The Stack:** Zapier Agents, Slack API, Zapier AI Orchestration, Gmail API.
 * **Key Innovation:** Uses an autonomous agent layer instead of a rigid static pipeline. The agent pulls dynamic runtime coordinates from an emoji reaction trigger to pull down complete text trees from any public channel automatically.
 
 ---
+
 ## 🛠️ Core Competencies Demonstrated
 
 This portfolio demonstrates a practical understanding of production-grade operational workflows:
 
 * **Data Engineering Mindset:** Mapping custom schemas, handling dynamic payloads, and utilizing distinct tracking markers like `Thread IDs` to maintain continuity across asynchronous webhooks.
 * **Real-Time Data Triage:** Building deterministic filtering systems to parse live XML status logs, preventing alert fatigue by separating baseline noise from critical system drops.
+* **Autonomous Agent Architecture:** Splitting tool permissions between dynamic AI decision-making (like reading runtime coordinates) and hardcoded data boundaries (like secure routing outputs) to keep corporate data secure.
 * **Prompt Engineering Architecture:** Utilizing system-level instructions, few-shot conditioning, and explicit formatting constraints to ensure AI outputs match strict corporate guidelines.
 * **Low-Code / Code Hybridization:** Knowing exactly when to use native platform triggers and when to drop into custom Python or JavaScript environments to execute advanced data transformations.
 * **Risk Mitigation:** Building safety-first architectures that preserve brand reputation by keeping human reviews integrated directly into automated loops.
